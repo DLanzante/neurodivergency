@@ -40,11 +40,11 @@ This project has several core objectives:
 We are going to be going over some of the most basic instructions of how to install all necessary repositories as well as how to get the api started and how to get started using my Diversified API!
 1. Clone the repository   
    ```bash
-   git clone https://gtihub.com/DLanzante/Diversified
+   git clone https://gtihub.com/DLanzante/neurodivergency
 
 2. Change the Directory
    ```bash
-   cd diversified
+   cd neurodivergency
 
 #### Getting-Started
 1. After this we can finally do our docker command to stand the app up to be able to use docker!

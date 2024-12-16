@@ -70,13 +70,16 @@ We are going to be going over some of the most basic instructions of how to inst
 ![Reddit esk board](https://github.com/DLanzante/neurodivergency/blob/main/templates/docs/reddit%20look%20alike.png)
    - This is actually what my posting board ended up looking like! LOL don't laugh
 ![My posting board](https://github.com/DLanzante/neurodivergency/blob/main/templates/docs/Login%20page.png)
-   - 
-   - 
-
+   - I know its not the best looking thing in the workd but at least you can login and post things on it!
 
 #### Hardening
+1. I need to implement proper security measures at both the API and container levels. This includes ensuring input sanitation, validating data, securing your endpoints, and setting up secure containers.
+   - HTML Escaping & Sanitization
+   - Sanitize JavaScript
+   - Validators
 
 #### Deployment
+1. Attempted to deploy via GCP and will explain in my video walkthrough!
 
 ### User-Stories
 

@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  db:
+    image: nouchka/sqlite3:latest
+    volumes:
+      - ./db:/db
+    environment:
+      - SQLITE_DB=/db/sqlite3.db
+
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DJANGO_SETTINGS_MODULE=myproject.settings
+      - DATABASE_URL=sqlite:///db/sqlite3.db  # Use SQLite for local dev
+
+  # Optional: Google Cloud SDK service for interacting with GCP if needed
+  google_cloud:
+    image: google/cloud-sdk:latest
+    volumes:
+      - ~/.config/gcloud:/root/.config/gcloud
+    entrypoint: /bin/bash

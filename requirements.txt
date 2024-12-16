@@ -1,0 +1,15 @@
+# Core dependencies
+Django>=4.2,<5.0
+djangorestframework>=3.14,<4.0
+djangorestframework-simplejwt>=5.0,<6.0
+PyJWT>=2.0,<3.0
+
+# Google Cloud Platform dependencies (choose based on your needs)
+google-cloud-storage>=2.0,<3.0
+google-auth>=2.0,<3.0
+google-auth-oauthlib>=0.4,<1.0
+
+# Other potential dependencies for your project
+python-dotenv>=0.19.0  # To load environment variables from .env files (if needed)
+
+# Add any other specific packages required for your project

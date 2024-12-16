@@ -56,6 +56,10 @@ We are going to be going over some of the most basic instructions of how to inst
     python manage.py createsuperuser
     docker-compose up
 
+2. Optional run if you need to set up your database, run the migrations
+   ```bash
+   docker-compose exec web python manage.py migrate
+
 #### Implementation
 
 #### Hardening

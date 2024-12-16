@@ -56,7 +56,11 @@ We are going to be going over some of the most basic instructions of how to inst
     python manage.py createsuperuser
     docker-compose up
 
-2. Optional run if you need to set up your database, run the migrations
+2. After this step we can move onto the app setup and actual run server as well
+   ```bash
+   pip install -r requirements.txt
+
+3. Optional run if you need to set up your database, run the migrations
    ```bash
    docker-compose exec web python manage.py migrate
 

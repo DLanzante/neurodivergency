@@ -65,6 +65,14 @@ We are going to be going over some of the most basic instructions of how to inst
    docker-compose exec web python manage.py migrate
 
 #### Implementation
+1. What I thought my app was going to be!
+   - I thought my app was going to be elaborate and intriquete and made beautifully by others and look some what like the below:
+![Reddit esk board](https://github.com/DLanzante/neurodivergency/blob/main/templates/docs/reddit%20look%20alike.png)
+   - This is actually what my posting board ended up looking like! LOL don't laugh
+![My posting board](https://github.com/DLanzante/neurodivergency/blob/main/templates/docs/Login%20page.png)
+   - 
+   - 
+
 
 #### Hardening
 
